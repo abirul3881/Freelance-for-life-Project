@@ -1,0 +1,175 @@
+body {
+  width: 1280px;
+  height: auto;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 323px;
+  background-color: rgb(59, 59, 92);
+}
+.head_block-left {
+  color: white;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  padding: 20px 0px 0px 40px;
+}
+.head_block-left img {
+  padding: 0px 20px 0px 0px;
+}
+
+.head_block-left li {
+  list-style-type: none;
+  font-weight: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.head_block-right img {
+  width: 550px;
+  height: 240px;
+  padding: 30px 50px 0px 0px;
+}
+/* Main block one */
+.main-block-one {
+  display: flex;
+  width: 1280px;
+  height: 290px;
+}
+.main-block-one_sheme img {
+  width: 430px;
+  height: 186px;
+  padding: 60px 70px 20px 40px;
+}
+.main-block-one_text {
+  width: 665px;
+  height: 230px;
+  padding: 30px 20px 20px 0px;
+}
+.main-block-one_text h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.main-block-one_text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+/* Main block two */
+.main-element h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.main-block-two {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1280px;
+  background-color: rgb(216, 216, 216);
+  margin-top: -80px;
+}
+.main-block-two_box-one {
+  width: 200px;
+  height: 150px;
+  padding: 100px 20px 50px 40px;
+}
+.main-block-two_box-one-text {
+  width: 365px;
+  height: 150px;
+  padding: 80px 0px 0px 0px;
+}
+.main-block-two_box-one-text h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.main-block-two_box-one-text p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+/* Main block three */
+.main-element-treee h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+}
+.main-block-three {
+  display: flex;
+}
+.main-block-three_boxes-line {
+  width: 300px;
+  height: 550px;
+  color: white;
+  text-align: center;
+  margin: 10px 20px 30px 85px;
+  background-color: rgb(59, 59, 92);
+}
+.main-block-three_boxes-line h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.main-block-three_boxes-line-text {
+  width: 290px;
+  height: 60px;
+
+  color: black;
+  background-color: white;
+  padding: 25px 0px 0px 0px;
+  margin-left: 5px;
+}
+.main-block-three_boxes-line p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+.main-block-three_buton-one {
+  width: 260px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 200px;
+}
+.main-block-three_buton-two {
+  width: 260px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+.main-block-three_buton-three {
+  width: 260px;
+  height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 140px;
+}
+/* Footer */
+.footer-block {
+  width: 1280px;
+  height: 100px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  background-color: rgb(216, 216, 216);
+  padding-top: 30px;
+}
